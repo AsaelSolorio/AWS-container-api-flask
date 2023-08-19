@@ -1,0 +1,4 @@
+Flask
+pylint
+psycopg2-binary 
+black
