@@ -35,7 +35,9 @@ if everything is ok. you will have the next folders created. inside the ./dags f
 
 ### Scenario
 
-You are a data engineer at a data analytics consulting company. You have been assigned to a project that aims to de-congest the national highways by analyzing the road traffic data from different toll plazas. Each highway is operated by a different toll operator with a different IT setup that uses different file formats. Your job is to collect data available in different formats and consolidate it into a single file.
+We will build a Restful Flask CRUD API about Movies.
+
+We will create a database using POSTGRES hosted in AWS-RDS instance to store information about movies. we will import the psycopg2-binary library and configure it. The name of our database file will be database/db.py , if you want to use another RDS, do the setup. 
 
 - Extract data from a csv file
 - Extract data from a tsv file
