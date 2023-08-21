@@ -7,14 +7,12 @@
 
 
 # AWS-container-api-Flask
-We are going to run Airflow using Docker, 
-we can download the docker-compose.yaml using the next command in our folder.
+We are going to Create an API-REST Container in AWS Cloud9 and Publish to Docker Hub and Push to ECR-AWS
+
+## This API-REST is developed for Linux-alpine Architecture
+if you want to use it for Ubuntu distribution replace the next commands
 ``` batch
-curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.0/docker-compose.yaml'
-```
-you need to add your GID and UID to docker-compose.yaml
-``` batch
-user: "${AIRFLOW_UID:-1000}:${AIRFLOW_GID:-0}"
+sudo apk add == sudo apt install 
 ```
 
 next, run the next command first
