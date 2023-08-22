@@ -38,23 +38,12 @@ We will be using the HTTP methods through Insomnia requests
 - PUT
 - DELETE
 
+Check data and info inside Docker Hub and ECR-AWS
+
+### images
+
+https://github.com/AsaelSolorio/AWS-container-api-flask/issues/1#issuecomment-1688341803
+
+https://github.com/AsaelSolorio/AWS-container-api-flask/issues/1#issuecomment-1688342767
 
 
-``` batch
-wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Final%20Assignment/tolldata.tgz
-```
-The final csv file should use the fields in the order given below:
-
-``` batch
-Rowid, Timestamp, Anonymized Vehicle number, Vehicle type, Number of axles, Tollplaza id, Tollplaza code, Type of Payment code, and Vehicle Code
-```
-
-- install the "requirements.txt" file
-``` batch
-pip install -r requirements.txt
-```
-
-Check data and info inside Airflow container bash 
-``` batch
-docker exec -it [container_name] bash
-```
