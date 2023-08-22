@@ -42,8 +42,8 @@ Check data and info inside Docker Hub and ECR-AWS
 
 ### images
 
-https://github.com/AsaelSolorio/AWS-container-api-flask/issues/1#issuecomment-1688341803
+![docker_api](https://github.com/AsaelSolorio/AWS-container-api-flask/assets/112660076/bed35062-9506-4749-bcbd-a655133a3133)
 
-https://github.com/AsaelSolorio/AWS-container-api-flask/issues/1#issuecomment-1688342767
+![aws-ecr](https://github.com/AsaelSolorio/AWS-container-api-flask/assets/112660076/f2181d37-0702-4941-923c-f19ad2f0030d)
 
 
