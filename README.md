@@ -15,9 +15,10 @@ if you want to use it for Ubuntu distribution replace the next commands
 sudo apk add == sudo apt install 
 ```
 
-next, run the next command first
+next, create a virtual venv
 ``` batch
-docker compose up airflow-init
+python -m venv venv
+source venv/bin/activate
 ```
 next, you run the next command for the rest of the airflow-services
 ``` batch
