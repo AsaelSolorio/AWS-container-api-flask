@@ -20,33 +20,24 @@ next, create a virtual venv
 python -m venv venv
 source venv/bin/activate
 ```
-next, you run the next command for the rest of the airflow-services
+next, you go to Flask_CRUD folder where you can scaffold the Makefile to install all the libraries
 ``` batch
-docker compose up 
+cd Flask_CRUD
+make install
 ```
-if everything is ok. you will have the next folders created. inside the ./dags folder you create your dags using python 
-
-``` batch
-./dags
-./logs
-./plugins 
-```
-
-## Build Docker ETL Pipeline using Airflow
-
-### Scenario
+## Scenario
 
 We will build a Restful Flask CRUD API about Movies.
 
 We will create a database using POSTGRES hosted in AWS-RDS instance to store information about movies. we will import the psycopg2-binary library and configure it. The name of our database file will be database/db.py , if you want to use another RDS, do the setup. 
 
-- Extract data from a csv file
-- Extract data from a tsv file
-- Extract data from a fixed width file
-- Transform the data
-- Load the transformed data into the staging area
+We will be using the HTTP methods through Insomnia requests
 
-you can download the raw data using the next command
+- GET
+- POST
+- PUT
+- DELETE
+
 
 
 ``` batch
